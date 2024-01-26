@@ -18,7 +18,7 @@ def best_first_search(actual_Src, target, n):
 
                 pq.put((c, v))
 
-     print()
+       print()
 
 def addedge(x, y, cost):
     graph[x].append((y, cost))
